@@ -10,9 +10,8 @@
 #backgroundBody {
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: 50px 50px;
     background: url(background.png);
-    height: 500px;
     background-size: cover;
     background-color:#464646;
 }
