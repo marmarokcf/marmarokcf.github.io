@@ -12,6 +12,7 @@
     background-attachment: fixed;
     background-position: center center;
     background: url(background.jpg);
+    height: 500px;
     background-size: cover;
     background-color:#464646;
 }
