@@ -10,7 +10,7 @@
 #backgroundBody {
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center top;
+    background-position: center center;
     background: url(background.png);
     background-color:#464646;
 }
