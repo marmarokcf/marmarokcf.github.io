@@ -1,1 +1,10 @@
-
+#backgroundBody {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background: url(a.png);
+    height: 300px;
+    padding: 30px;
+    background-size: center top;
+    background-color:#810391;
+}
