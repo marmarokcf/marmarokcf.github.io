@@ -4,18 +4,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #02b5b8;
-}
-
-#backgroundBody {
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    background: url(background.png);
-    height: 300px;
-    padding: 30px;
-    background-size: center top;
-    background-color:#810391;
+    color: #FFF;
+    font-family: :Arial.sans-serif;
 }
 
 .fab {
@@ -27,8 +17,10 @@
     margin: 10px 7px;
     border-radius: 100%;
 
-    background: #120e07;
-    color: #ff0d00;
+    background: #008ab4;
+    color: #000000;
+    text-shadow: 0.1em 0.1em 0.500em #fbff00;
+
 }
 
 .fa:hover {
@@ -39,3 +31,28 @@
     padding: 10px 100px;
     border-radius: 30px;
   }
+
+body {margin:0;padding:0;}
+
+#hero {
+    position:relative;
+}
+
+#hero video {
+    height:100%;
+    width:100%;
+    background-position:absolute;
+    z-index:10;
+    object-fit:cover;
+}
+
+#hero .content {
+    background:rgba(0,0,0,0.4);
+    height:100%;
+    width:100%;
+    z-index:20;
+    position:absolute;
+    top:0;
+    left:0;
+    text-align:center;
+}
