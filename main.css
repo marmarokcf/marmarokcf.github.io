@@ -34,3 +34,8 @@
 .fa:hover {
     opacity: 0.7;
 }
+
+.button {
+    padding: 10px 100px;
+    border-radius: 30px;
+  }
