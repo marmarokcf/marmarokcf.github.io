@@ -31,6 +31,26 @@
     border-radius: 30px;
   }
 
+  .button2 {
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: 460px 870px;
+
+    display:flex;
+    align-items: center center;
+    justify-content: center;
+  }
+
+  .button3 {
+    padding: 10px 40px;
+    border-radius: 10px;
+    margin: 0px 870px;
+    display:flex;
+    align-items: center center;
+    justify-content: center;
+
+  }
+
 body {margin:0;padding:0;}
 
 #hero {
