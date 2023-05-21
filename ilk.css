@@ -1,0 +1,22 @@
+.button6 {
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 190px 870px;
+  }
+
+#textBody {
+    text-align: center;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ff0000;
+}
+
+.img {  
+    margin: 0px 700px;
+  }
+
+.jpeg {
+    margin: 0px 820px;
+}
